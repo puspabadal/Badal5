@@ -63,10 +63,31 @@
     padding-top: 20px;
 }
 
-/* End Banner Area */
-
-
-
 .banner-image {
     padding-top: 60px;
 }
+
+/* End Banner Area */
+
+
+/* Start About Area */
+
+.about-title h2 > span {
+    display: block;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+
+/* End About Area */
+
+
+/* Start Brand Area */
+
+
+
+/* Start Brand Area */
+
+
+
+

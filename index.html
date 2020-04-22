@@ -22,7 +22,7 @@
 
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="./img/FALogo.png" alt="logo" height="45" width="45"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./img/FALogo.png" alt="logo" height="45" width="45"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,7 +65,7 @@
                     <div class="row">
                         
                         <div class="col-lg-6 col-md-12 site-title">
-                            <h1 class="title-text"><b>Faizan Ahmed</b></h3>
+                            <h1 class="title-text" style="letter-spacing: 0px;"><b>Faizan Ahmed</b></h3>
                                 
                             <div class="subheading">
                                 <h3 class="title-text">Hello, I am a student at</h1>
@@ -75,7 +75,7 @@
                             
                             <div class="site-buttons">
                                 <div class="d-flex flex-row flex-wrap">
-                                    <button type="button" class="btn button primary-button mr-4">LinkedIn</button>
+                                    <button type="button" id="linkedinButton" class="btn button primary-button submit-button mr-4">LinkedIn</button>
                                 </div>
                             </div>
                         </div>
@@ -115,22 +115,99 @@
                 <button type="button" class="btn button primary-button">Learn More</button>
               </div>
             </div>
-
-
-          </div>
+          </div>         
         </section>
-
-
 
         <!-- ====================== End Secondary Area ====================== --> 
 
+        <!-- ====================== Start Brand Area ====================== -->
+        
+        <section class="brand-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo1.png" alt="">
+                    </div>
+                  </div><div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo3.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-brand">
+                      <img src="./img/brands/logo2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="experience-area">
+                  <div class="d-flex flex-row skills-area">
+                    <h2 class="p-3 skills">Skilled in these programs</h2>
+                    <h2>
+                      <span>Years</span>
+                      <span>Years</span>
+                      <span>Years</span>
+                    </h2>
+                  </div>
+                  <div class="d-flex flex-row flex-wrap call-area"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <!-- ====================== Start Brand Area ====================== --> 
+
     </main>
     <!-- ====================== End Main Area ====================== -->
+
+    <script type="text/javascript">
+      document.getElementById("linkedinButton").onclick = function () {
+          location.href = "https://www.linkedin.com/in/faizan-ahmed-7ab0/";
+      };
+    </script>
 
     <!-- JQuery js file -->
     <script src="./js/jquery.3.5.0.js"></script>
 
     <!-- Bootstrap JS file -->
     <script src="./js/bootstrap.min.js"></script>
+
+    
 </body>
 </html>
