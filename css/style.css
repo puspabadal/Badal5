@@ -78,6 +78,10 @@
     letter-spacing: 5px;
 }
 
+.button.primary-button.learn-more {
+    margin-top: -10px;
+}
+
 
 /* End About Area */
 
@@ -85,8 +89,48 @@
 /* Start Brand Area */
 
 
+.skills-area {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 5px;  
+    padding-left: 15%;
+}
 
-/* Start Brand Area */
+.skills-image-area {
+    padding: 1rem 20rem;
+    margin-top: 60px;
+    margin-bottom: 4rem;
+    padding-left: 15%;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-4 > .single-brand {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 0.4rem 0.40rem;
+    margin: 0.9rem 0;
+    width: 420px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.col-lg-4 > .single-brand > img {
+    width: 100px;
+    height: 100px;
+}
+
+.col-lg-4 > .single-brand:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+
+/* End Brand Area */
 
 
 
