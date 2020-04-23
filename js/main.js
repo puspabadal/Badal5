@@ -4,12 +4,21 @@ $(document).ready(function () {
 
     // Owl Carousel for Blog
 
-    $('.owl-carousel').owlCarousel();
-    
     $('.owl-carousel').owlCarousel({
-        items : 3,
-        padding: 50,
-    });
-
+        loop:true,
+        margin: 10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
 
 });
