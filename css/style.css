@@ -44,7 +44,7 @@
 }
 
 .site-banner {
-    /* background: url(../img/banner/home-banner.png) no-repeat; */
+    background: url(../img/banner/home-banner.png) no-repeat; 
     background-position: 0% 50%;
 }
 
@@ -170,6 +170,7 @@
     margin-bottom: 40px;
     padding: 2rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
 }
 
 .checkout {
@@ -184,6 +185,51 @@
     text-align: center;
 }
 
+.item:hover {
+    transform: scale(1.05);
+}
+
 /* End Blog Area */
 
 
+/* Start Projects Area */
+
+.card {
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.card-content {
+    margin-left: 15%;
+    max-width: 100%;
+}
+
+.project-item {
+    height: 320px;
+    width: 750px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 12.5%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    padding: 2rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-title {
+    padding-left: 2px;
+    max-width: 100%;
+}
+
+.project-row {
+    max-width: 100%;
+}
+
+/* End Projects Area */
