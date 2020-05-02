@@ -66,20 +66,58 @@
 
       <!-- ====================== Start Banner Area ====================== -->
         
+      <section class="site-banner">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-6 col-md-12 projects-site-title">
+                    <div class="subheading">
+                        <h3 class="title-text">Check out all my</h1>
+                        <h3 class="title-text">projects on <a href="http://www.github.com/faizancodes">GitHub!</a></h4>
+                    </div>
+                    
+                    <div class="github-desc" style="margin-top: 35px;">
+                      <h4>I focus on creating projects that</h4>
+                      <h4>utilize machine learning for real</h4>
+                      <h4>world applications.</h4>
+                    </div>
+                    
+                    <div class="focus-desc">
+                      <h3>My main areas of focus include:</h3>
+                      <h4 style="margin-top: 25px;">- Medical Diagnosis</h4>
+                      <h4>- Computer Vision</h4>
+                      <h4>- Recommendation Systems</h4>
+                      <h4>- Algorithmic Trading</h4>
+                      <h4>- NBA Analytics</h4>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 banner-image">
+                    <img src="./img/githubbackground.png" alt="banner-img" class="img-fluid">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <h3 style="text-align: center;">Here are a few projects</h3>
 
         <section class="projects-area">
             
             <div class="project-row">
                 <div class="card-content white-text">
-                        
+              
                     <div class="project-item">
                         <div class="project-content">
                             <div class="blog1img">
-                            <img src="./img/spotify.jpg" alt="post-1" style="height: 250px; width: 350px; max-width: 100%; float: left;">
+                              <img src="./img/spotify.jpg" alt="post-1" style="height: 250px; width: 375px; max-width: 100%; float: left; padding-right: 10px;">
                             </div>
-                            <div class="project-title">
-                            <h3 style="text-align: center;">Spotify Music Reommendations</h3>
-                            <button class="btn button primary-button btn-blog">Link</button>
+                            <div class="project-text">
+                              <h3 class="project-title">Spotify Music Reommendations</h3>
+                              <p class="project-desc">Enter your favorite artist and songs to get personalized music recommendations powered by machine learning!</p>
+                              <button type="button" id="spotifyrec" class="btn button primary-button btn-project">Link</button>
                             </div>
                         </div>
                     </div>
@@ -102,7 +140,11 @@
     </main>
     <!-- ====================== End Main Area ====================== -->
 
-
+    <script type="text/javascript">
+      document.getElementById("spotifyrec").onclick = function () {
+          location.href = "https://github.com/faizancodes/Spotify-ML-Music-Recommendations";
+      };
+    </script>
 
     <!-- JQuery js file -->
     <script src="./js/jquery.3.5.0.js"></script>
