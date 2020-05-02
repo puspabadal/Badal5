@@ -200,6 +200,7 @@
     padding-left: 10%;
 }
 
+/*
 .card-content {
     margin-left: 15%;
     max-width: 100%;
@@ -218,25 +219,13 @@
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.4s ease;
 }
+*/
 
-
-.project-item:hover {
-    transform: scale(1.02);
-}
-
-.project-title {
-    padding-left: 20px;
-    max-width: 100%;
-}
-
-.project-row {
-    max-width: 100%;
+.cards {
     display: grid;
-}
+    justify-content: space-between;
+ }
 
-.project-desc {
-    margin-top: 20px;
-}
 
 .github-desc > h4 {
     font-size: 21px;
@@ -257,5 +246,135 @@
     margin-left: 5%;
 }
 
+.project-item:hover {
+    transform: scale(1.02);
+}
+
+.project-title {
+    padding-left: 20px;
+    max-width: 100%;
+}
+
+.project-row {
+    max-width: 100%;
+    display: grid;
+}
+
+.project-desc {
+    margin-top: 20px;
+    z-index: auto;
+}
+
 
 /* End Projects Area */
+
+
+
+
+/* Start Blog Page */
+
+
+/* Design */
+
+
+
+.blog-main{
+  padding-top: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.card_btn {
+  color: black;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+
+.card_btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: whitesmoke;
+}
+
+.card_title {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+    margin-top: 10px;
+}
+
+.blog-title-text {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* End Blog Page */
+
+
+
+
