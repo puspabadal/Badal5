@@ -200,31 +200,26 @@
     padding-left: 10%;
 }
 
-/*
-.card-content {
-    margin-left: 15%;
-    max-width: 100%;
-}
-
-.project-item {
-    height: 320px;
-    width: 775px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 70px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 40px;
-    padding: 2rem 2rem;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.4s ease;
-}
-*/
-
-.cards {
-    display: grid;
-    justify-content: space-between;
- }
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+  }
+  
+  .bg-img {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: #ccc;
+  }
+  
+  
+  button {
+    background-color: transparent;
+    border: 1px solid #2196F3;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+  }
 
 
 .github-desc > h4 {
@@ -246,35 +241,38 @@
     margin-left: 5%;
 }
 
-.project-item:hover {
-    transform: scale(1.02);
-}
-
-.project-title {
-    padding-left: 20px;
-    max-width: 100%;
-}
-
-.project-row {
-    max-width: 100%;
-    display: grid;
-}
 
 .project-desc {
     margin-top: 20px;
     z-index: auto;
 }
 
+.project-cards {
+    transform: scale(0.75);
+    margin-top: 10px;
+    margin-left: 25%;
+    transition: transform 0.4s ease;
+}
+
+.project-desc {
+    font-size: 24px;
+    font-weight: 340;
+    margin-top: 20px;
+}
+
+.project-cards:hover {
+    transform: scale(0.77);
+}
 
 /* End Projects Area */
 
 
 
 
+
+
+
 /* Start Blog Page */
-
-
-/* Design */
 
 
 

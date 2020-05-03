@@ -128,31 +128,28 @@
                 </div>
             </div>
           -->
+          
+          <div class="projects">
 
-          <div class="centered">
- 
-            <section class="cards">
-                 
-                <article class="card">
-                   <p>content for card one</p>
-                </article><!-- /card-one -->
- 
-                <article class="card">
-                              <p>content for card two</p>
-                        </article><!-- /card-two -->
-            
-                <article class="card">
-                                  <p>content for card three</p>
-                            </article><!-- /card-three -->
-                
-                <article class="card">
-                      <p>content for card four</p>
-                </article><!-- /card-four -->
-            
-
-              </section>
+            <div class="card project-cards" style="width: 50%; height: 90%;">
+              <img src="./img/spotify.jpg" class="card-img-top">
+              <div class="card-body">
+                <h2 class="project-title-text">Spotify Music Recommendations</h1>
+                <p class="project-desc">Enter your favorite artists and songs to get personalized music recommendations powered by machine learning!</p>
+                <button type="button" id="spotifyrec" class="btn button primary-button btn-project" style="font-size: larger;">Link</button>
+              </div>
             </div>
 
+            <div class="card project-cards" style="width: 50%; height: 90%; margin-top: -50px;">
+              <img src="./img/nbawallpaper.jpg" class="card-img-top">
+              <div class="card-body">
+                <h2 class="project-title-text">NBA Win Projections</h1>
+                <p class="project-desc">Machine learning model to predict the number of wins for each NBA team per season.</p>
+                <button type="button" id="nba" class="btn button primary-button btn-project" style="font-size: larger;">Link</button>
+              </div>
+            </div>
+
+        </div>
 
 
         </section>
@@ -172,6 +169,12 @@
     <script type="text/javascript">
       document.getElementById("spotifyrec").onclick = function () {
           location.href = "https://github.com/faizancodes/Spotify-ML-Music-Recommendations";
+      };
+    </script>
+
+    <script type="text/javascript">
+      document.getElementById("nba").onclick = function () {
+          location.href = "https://github.com/faizancodes/NBA-ML-Team-Win-Predictions";
       };
     </script>
 
