@@ -367,12 +367,25 @@ img {
 
 
 
-
-
-
-
 /* End Blog Page */
 
+
+/* Start VC Blog Post */
+
+.vcBlogBanner {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+
+
+
+
+
+/* End VC Blog Post */
 
 
 

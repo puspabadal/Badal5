@@ -70,7 +70,7 @@
           
           <li class="cards_item">
             <div class="card">
-              <div class="card_image"><img src="./img/bitcoin.jpg"></div>
+              <div class="card_image"><img src="./img/blogs/bitcoin.jpg"></div>
               <div class="card_content">
                 <h2 class="card_title">Why Everyone Should Own Bitcoin</h2>
                 <p class="card_text">An in-depth fundamental analysis of the world's most famous digital asset</p>
@@ -81,18 +81,18 @@
 
           <li class="cards_item">
             <div class="card">
-              <div class="card_image"><img src="./img/venturecapital.jpg"></div>
+              <div class="card_image"><img src="./img/blogs/venturecapital.jpg"></div>
               <div class="card_content">
                 <h2 class="card_title">The Future of Venture Capital</h2>
                 <p class="card_text">Discussing the paradigm shifts that are taking over the VC industry</p>
-                <button class="btn card_btn">Read More</button>
+                <button class="btn card_btn" id="vcBlogButton">Read More</button>
               </div>
             </div>
           </li>
 
           <li class="cards_item">
             <div class="card">
-              <div class="card_image"><img src="./img/ai.jpg"></div>
+              <div class="card_image"><img src="./img/blogs/ai.jpg"></div>
               <div class="card_content">
                 <h2 class="card_title">Understanding the ubiquity of AI</h2>
                 <p class="card_text">Nowadays, it seems like every business is utilizing AI in some way. But why?</p>
@@ -142,6 +142,12 @@
 
     </main>
     <!-- ====================== End Main Area ====================== -->
+
+    <script type="text/javascript">
+      document.getElementById("vcBlogButton").onclick = function () {
+          location.href = "./vcblog.html";
+      };
+    </script>
 
 
     <!-- JQuery js file -->
