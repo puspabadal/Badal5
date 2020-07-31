@@ -1,0 +1,40 @@
+/* If the viewport is < 340 pixels */
+
+@media only screen and (max-width: 340px){
+  .header_area.main-menu.navbar {
+      padding: 4%;
+      margin: 0%;
+  }
+}
+
+@media only screen and (max-width: 792px){
+    .skills-image-area {
+        padding-right: 15%;
+        padding-bottom: 10%;
+        align-items: center;
+    }
+
+    .col-lg-4 > .single-brand{
+        padding-bottom: 10%;
+        height: 80%;
+        width: 80%;
+    }
+
+    .skills-text {
+        padding-left: 12%;
+    }
+
+    .checkout {
+        padding-right: 3%;
+    }
+
+    .blog > .owl-carousel {
+        padding-left: 5%;
+    }
+    
+
+    .owl-prev {
+        padding-left: 3%;
+    }
+    
+  }
