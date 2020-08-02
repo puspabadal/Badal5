@@ -17,10 +17,26 @@
     box-shadow: var(--box-shadow);
     margin-top: 15px;
     height: 50px;
-    text-align: center; 
-    line-height: 0px;
+    width: 100px;
+    padding:0.5em;
 }
 
+.btn-primary {
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    letter-spacing: 0.2pt;
+}
+
+.learn-more {
+    margin-top: -15px;
+    width: 150px;
+}
+
+/*
 .button.primary-button:hover {
     background: whitesmoke;
     background-clip: padding-box;
@@ -36,3 +52,4 @@
     z-index: -1;
     border-radius: 4px;
 }
+*/
