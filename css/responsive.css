@@ -42,5 +42,28 @@
     .owl-prev {
         padding-left: 3%;
     }
+
+    .owl-carousel {
+        right: 6.5%;
+    }
+
+    .item {
+        width: 80%;
+        height: 500px;
+        margin-bottom: 14%;
+    }
+
+    .owl-pagination {
+        position: absolute;
+        padding-left: 12%;
+      }
+
+      .about-image {
+          display: none;
+      }
+
+    .about-title {
+        margin-top: -50px;
+    }
     
   }
