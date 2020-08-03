@@ -84,11 +84,20 @@
     }
 
     .blog-title {
-       
         padding-left: 10%;
         padding-right: 10%;
 
     }
+
+    .learn-more {
+        margin-top: -20px;
+        width: 150px;
+    }
+    
+    .linkedin {
+        margin-top: 25px;
+    }
+    
 
   
   }

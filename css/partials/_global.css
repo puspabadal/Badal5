@@ -15,7 +15,6 @@
     color: whitesmoke;
     transition: background.6s ease;
     box-shadow: var(--box-shadow);
-    margin-top: 15px;
     height: 50px;
     width: 100px;
     padding:0.5em;
@@ -25,13 +24,14 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
-    margin-top: 25px;
     height: 50px;
     width: 100px;
     letter-spacing: 0.2pt;
 }
 
-
+.btn-blog {
+    margin-top: 20px;
+}
 
 /*
 .button.primary-button:hover {
