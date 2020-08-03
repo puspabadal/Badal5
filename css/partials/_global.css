@@ -25,16 +25,13 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
-    margin-top: 30px;
+    margin-top: 25px;
     height: 50px;
     width: 100px;
     letter-spacing: 0.2pt;
 }
 
-.learn-more {
-    margin-top: -15px;
-    width: 150px;
-}
+
 
 /*
 .button.primary-button:hover {
