@@ -424,10 +424,16 @@ img {
 }
 
 
-
-
-
 /* End VC Blog Post */
 
 
+/* About Me Page */
+
+.vu-text > h3{ 
+    font-size: 21px;
+}
+
+.init-desc > h3{
+    font-size: 21px;
+}
 
