@@ -107,6 +107,10 @@
         margin-top: 20px;
     }
 
-    
-  
+    .project-cards {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+
   }
