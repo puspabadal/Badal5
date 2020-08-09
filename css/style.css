@@ -292,18 +292,28 @@
 .project-cards {
     transform: scale(0.75);
     margin-top: 10px;
-    margin-left: 25%;
+    margin-left: 2%;
+    transform: scale(0.5);
     transition: transform 0.4s ease;
 }
 
 .project-desc {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 340;
     margin-top: 20px;
 }
 
 .project-cards:hover {
-    transform: scale(0.77);
+    transform: scale(0.52);
+}
+
+.project-title-text {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.nba-proj {
+    top: -275px;
 }
 
 /* End Projects Area */
@@ -380,6 +390,7 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .card_content {
@@ -400,6 +411,13 @@ img {
     margin-top: 10px;
 }
 
+.btn-project {
+    width: 12%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
 .blog-title-text {
     margin-top: 40px;
     font-size: 24px;
@@ -407,6 +425,13 @@ img {
     text-align: center;
 }
 
+.projects {
+    margin-top: -90px;
+}
+
+.project-cards {
+    margin-top: -200px;
+}
 
 
 /* End Blog Page */
@@ -433,7 +458,20 @@ img {
     font-size: 21px;
 }
 
+.vu-text {
+    margin-top: 100px;
+}
+
+.vu-text-2 {
+    margin-top: 90px;
+}
+
 .init-desc > h3{
+    font-weight: 350;
     font-size: 21px;
+}
+
+.init-desc > h1 {
+    font-weight: 500;
 }
 
