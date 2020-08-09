@@ -1,5 +1,5 @@
 # Portfolio-Website
 My Personal Website 
-https://faizancodes.github.io/Portfolio-Website/
+http://faizanahmed.me/
 
 Check out my experiences, projects, and blog!
