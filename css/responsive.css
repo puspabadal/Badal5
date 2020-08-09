@@ -108,6 +108,20 @@
       .btn-project {
           width: 100px;
       }
+
+      .skills-image-area {
+        margin-left: 10%;
+    }
+
+
+    .projects {
+        margin-left: -20px;
+    }
+
+    .project-cards{
+        width: 500px;
+    }
+
     
   }
 
@@ -162,5 +176,26 @@
     .vu-image {
         margin-right: 10%;
     }
+
+    .learn-more {
+        margin-top: 5px;
+    }
+
+    .about-title {
+        margin-top: -100px;
+    }
+
+    .about-area {
+        margin-left: 8%;
+    }
+
+    .projects {
+        margin-left: -70px;
+    }
+
+    .project-cards{
+        width: 500px;
+    }
+
 
   }

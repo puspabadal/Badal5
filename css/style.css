@@ -99,11 +99,11 @@
 }
 
 .button.primary-button.learn-more {
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .learn-more {
-    margin-top: -20px;
+    margin-top: 5px;
     width: 150px;
 }
 
@@ -136,7 +136,7 @@
 .skills-image-area {
     margin-top: 60px;
     margin-bottom: 4rem;
-    padding-left: 15%;
+    margin-left: 33%;
 }
 
 .col-lg-4 {
@@ -281,6 +281,7 @@
 .focus-desc > h4 {
     font-weight: 400;
     margin-left: 5%;
+    line-height: 35px;
 }
 
 
@@ -467,7 +468,7 @@ img {
 }
 
 .init-desc > h3{
-    font-weight: 350;
+    font-weight: 400;
     font-size: 21px;
 }
 
