@@ -480,3 +480,10 @@ img {
     font-weight: 500;
 }
 
+.tai-text {
+    margin-top: 50px;
+}
+
+.tai-text > h3{
+    font-size: 21px;
+}

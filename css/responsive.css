@@ -81,16 +81,21 @@
         line-height: 40px;
     }
 
+    .ai-research-text {
+        margin-top: -60px;
+    }
+
     .vu-text-2  {
         margin-top: -10px;
      }
  
      .vu-text {
-         margin-top: -100px;
+         margin-top: -120px;
      }
  
      .vu-image {
          margin-right: 10%;
+         margin-top: -40px;
      }
 
      .spotify-proj {
@@ -126,6 +131,18 @@
         margin-top: 5px;
     }
     
+    .tai-text {
+        margin-top: -120px;
+    }
+
+    .tai-text-2 {
+        margin-top: 80px;
+    }
+
+    .tai-image {
+        margin-top: 20px;
+        margin-right: 10%;
+    }
     
   }
 
@@ -205,5 +222,15 @@
         margin-top: 5px;
     }
     
+    .tai-text {
+        margin-top: -130px;
+    }
 
+    .tai-text-2 {
+        margin-top: 60px;
+    }
+    
+    .tai-image {
+        margin-top: -10px;
+    }
   }
