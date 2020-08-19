@@ -8,6 +8,25 @@
 
 }
 
+/* Half Browser */
+
+@media only screen and (max-width: 1200px){
+    .header_area.main-menu.navbar {
+        padding: 4%;
+        margin: 0%;
+    }
+
+    .projects {
+        margin-top: -180px;
+    }
+
+    .project-cards {
+        margin-top: -100px;
+    }
+  
+  }
+
+
 /* Minimized Browser */
 
 @media only screen and (max-width: 820px){
@@ -120,11 +139,11 @@
 
 
     .projects {
-        margin-left: -20px;
+        margin-left: -14%;
     }
 
     .project-cards{
-        width: 500px;
+        width: 600px;
     }
 
     .stockmarket-proj {
@@ -143,8 +162,22 @@
         margin-top: 20px;
         margin-right: 10%;
     }
-    
+
   }
+
+  @media only screen and (max-width: 800px) {
+    .projects {
+        margin-left: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .projects {
+        margin-left: 5%;
+    
+    }
+  }
+
 
   @media only screen and (max-width: 400px){
     .item {
@@ -212,6 +245,7 @@
 
     .projects {
         margin-left: -70px;
+        margin-top: 20px;
     }
 
     .project-cards{
