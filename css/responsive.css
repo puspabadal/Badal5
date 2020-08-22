@@ -267,4 +267,19 @@
     .tai-image {
         margin-top: -10px;
     }
+
+    .lifeimg {
+        height: 275px;
+        width: 325px;
+    }
+
+    .lifeBlogTitle {
+        margin-top: 30px;
+    }
+
+
+    .bodypara {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
   }
