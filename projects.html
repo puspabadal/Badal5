@@ -65,12 +65,11 @@
 
     <!-- ====================== Start Main Area ====================== -->
 
+
+    
     <main class="site-main">
 
-
-      <!-- ====================== Start Banner Area ====================== -->
-        
-
+      <!--
         <div class="container">
             <div class="row">
                 
@@ -108,29 +107,6 @@
     <h3 style="text-align: center;">Here are a few projects</h3>
 
         <section class="projects-area">
-            
-          <!--
-            <div class="project-row">
-                <div class="card-content white-text">
-              
-                    <div class="project-item">
-                        <div class="project-content">
-                            <div class="blog1img">
-                              <img src="./img/spotify.jpg" alt="post-1" style="height: 250px; width: 375px; max-width: 100%; float: left; padding-right: 10px;">
-                            </div>
-                            <div class="project-text">
-                              <h3 class="project-title">Spotify Music Reommendations</h3>
-                              <p class="project-desc">Enter your favorite artist and songs to get personalized music recommendations powered by machine learning!</p>
-                              <button type="button" id="spotifyrec" class="btn button primary-button btn-project">Link</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-          -->
           
           <div class="projects" style="margin:0;padding:0">
 
@@ -163,23 +139,129 @@
 
         </div>
 
-
- 
-            
-
-      <!-- ====================== End Banner Area ====================== -->
-    
+      -->
 
 
+      <div class="blog-main">
+
+        <div class="container">
+          <div class="row">
+              
+              <div class="col-lg-6 col-md-12 projects-site-title">
+                  <div class="subheading" style="margin-top: -25px;">
+                      <h3 class="title-text">Check out all my</h1>
+                      <h3 class="title-text">projects on <a href="http://www.github.com/faizancodes">GitHub!</a></h4>
+                  </div>
+                  
+                  <div class="github-desc" style="margin-top: 35px;">
+                    <h4>I focus on creating projects that</h4>
+                    <h4>utilize machine learning for real</h4>
+                    <h4>world applications.</h4>
+                  </div>
+                  
+                  <div class="focus-desc">
+                    <h3>My main areas of focus include:</h3>
+                    <h4 style="margin-top: 25px;">- Computer Vision</h4>
+                    <h4>- Algorithmic Trading</h4>
+                    <h4>- NBA Analytics</h4>
+                    <h4>- Natural Language Processing</h4>
+                  </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-12 banner-image">
+                  <img src="./img/projects/githubbackground.png" alt="banner-img" class="img-fluid github-img">
+
+              </div>
+
+          </div>
+        </div>
+
+
+  <h3 style="text-align: center;">Here are a few projects</h3>
+        
+    <ul class="cards" style="margin-top: 25px;">
+
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="./img/projects/covid19.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">Automated COVID-19 Detection</h2>
+              <p class="card_text">Deep learning model capable of detecting COVID-19 and Viral Pneumonia in chest x-ray images</p>
+              <button class="btn card_btn" id="covid19">Link</button>
+            </div>
+          </div>
+        </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="./img/projects/spotify.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title" style="line-height: 20pt;">Spotify Music Recommendations</h2>
+                <p class="card_text">Enter your favorite artists and songs to get personalized music recommendations powered by machine learning!</p>
+                <button class="btn card_btn" id="spotify">Link</button>
+              </div>
+            </div>
+          </li>
+          
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="./img/projects/nbawallpaper.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">NBA Win Projections</h2>
+                <p class="card_text">Machine learning model to predict the number of wins for each NBA team per season</p>
+                <button class="btn card_btn" id="nba">Link</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="./img/projects/stockmarket.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Automated Fundamental Analysis</h2>
+                <p class="card_text">Rating stocks out of 100 based on a valuation, profitability, growth, and price performance metrics, relative to sector</p>
+                <button class="btn card_btn" id="stockmarket">Link</button>
+              </div>
+            </div>
+          </li>
+
+          
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="./img/projects/breastcancer.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Breast Cancer Detection</h2>
+                <p class="card_text">Machine learning model to predict if a tumor is malignant or benign based on tumor metrics</p>
+                <button class="btn card_btn" id="breastcancer">Link</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="./img/projects/investments.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Investment Insights Web App</h2>
+                <p class="card_text">A web application that provides an array of financial advice including a personalized portfolio builder and risk analysis</p>
+                <button class="btn card_btn" id="investments">Link</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
 
 
       
 
     </main>
+
+
     <!-- ====================== End Main Area ====================== -->
 
     <script type="text/javascript">
-      document.getElementById("spotifyrec").onclick = function () {
+      document.getElementById("spotify").onclick = function () {
           location.href = "https://github.com/faizancodes/Spotify-ML-Music-Recommendations";
       };
     </script>
@@ -193,6 +275,23 @@
     <script type="text/javascript">
       document.getElementById("stockmarket").onclick = function () {
           location.href = "https://github.com/faizancodes/Automated-Fundamental-Analysis";
+      };
+    </script>
+
+    <script type="text/javascript">
+      document.getElementById("covid19").onclick = function () {
+          location.href = "https://github.com/faizancodes/COVID-19-X-Ray-Classification";
+      };
+    </script>
+
+    <script type="text/javascript">
+      document.getElementById("breastcancer").onclick = function () {
+          location.href = "https://github.com/faizancodes/Breast-Cancer-Detection";
+      };
+    </script>
+    <script type="text/javascript">
+      document.getElementById("investments").onclick = function () {
+          location.href = "https://github.com/faizancodes/Investment-Insights-Web-App";
       };
     </script>
 
