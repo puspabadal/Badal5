@@ -327,8 +327,12 @@
     }
 
     .item {
-        height: 410px;
+        height: 415px;
         width: 300px;
+    }
+
+    .blog-title {
+        margin-top: 5px;
     }
 
   }
