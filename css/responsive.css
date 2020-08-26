@@ -23,6 +23,32 @@
     .project-cards {
         margin-top: -100px;
     }
+    
+    .skills-image-area {
+        margin-top: 60px;
+        margin-bottom: 4rem;
+        padding-left: 8%;
+    }
+
+    .skills-text {
+        padding-left: 15%;   
+    }
+
+    .col-lg-4 > .single-brand > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .col-lg-4 > .single-brand {
+        border: 1px solid var(--border-color);
+        text-align: center;
+        margin: 0.4rem -1rem;
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        padding-top: 10%;
+        transition: transform 0.4s ease;
+    }
 
   }
 
@@ -289,5 +315,9 @@
     .bodypara {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .skills-area {
+        margin-left: -15px;
     }
   }

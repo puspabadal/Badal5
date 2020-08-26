@@ -131,13 +131,14 @@
     display: block;
     font-size: 30px;
     letter-spacing: 5px;  
-    padding-left: 5%;
+    margin-left: -35px;
+    margin-top: 40px;
 }
 
 .skills-image-area {
     margin-top: 60px;
     margin-bottom: 4rem;
-    margin-left: 33%;
+    padding-left: 33%;
 }
 
 .col-lg-4 {
