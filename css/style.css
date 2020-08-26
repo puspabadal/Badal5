@@ -194,17 +194,17 @@
 
 .blog-title {
     padding: 1rem;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: smaller;
     
 }
 
 .blog1img {
-    padding: 2rem;
+    padding: 1.2rem;
 }
 
 .item {
-    height: 440px;
+    height: 410px;
     width: 350px;
     text-align: center;
     letter-spacing: 0.5pt;
