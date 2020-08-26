@@ -203,6 +203,11 @@
         margin-left: 10%;
     }
   
+    .item {
+        height: 350px;
+        width: 350px;
+    }
+
   }
 
   @media only screen and (max-width: 700px) {
@@ -320,4 +325,10 @@
     .skills-area {
         margin-left: -15px;
     }
+
+    .item {
+        height: 350px;
+        width: 350px;
+    }
+
   }
