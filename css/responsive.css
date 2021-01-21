@@ -287,6 +287,14 @@
         margin-top: 20px;
     }
 
+    .init-desc {
+        padding-bottom: 0px;
+    }
+
+    .ai-image{
+        margin-bottom: -20px;
+    }
+
     .project-cards{
         width: 500px;
     }

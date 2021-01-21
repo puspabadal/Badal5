@@ -98,6 +98,10 @@
     letter-spacing: 5px;
 }
 
+.init-desc {
+    padding-bottom: 80px;
+}
+
 .button.primary-button.learn-more {
     margin-top: 10px;
 }
